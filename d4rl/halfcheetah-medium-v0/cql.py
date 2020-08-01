@@ -1,9 +1,9 @@
 from copy import deepcopy
-from rlfd.params.sac import gym_mujoco_params
+from rlfd.params.cql import gym_mujoco_params
 
 params_config = deepcopy(gym_mujoco_params)
 
-params_config["config"] = ("SAC", )
+params_config["config"] = ("CQL",)
 
 params_config["env_name"] = "halfcheetah-medium-v0"
 # Tuned values
