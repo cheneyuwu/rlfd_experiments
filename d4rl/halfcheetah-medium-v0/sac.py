@@ -18,6 +18,10 @@ params_config["config"] = ("SAC", )
 # params_config["agent"]["use_pretrained_actor"] = True
 # params_config["agent"]["use_pretrained_alpha"] = True
 
-# # Exp 3 copy actor, critic and alpha from a pretrained gan agent: gan.pkl
+# # Exp 3 copy critic from a pretrained gan agent: gan.pkl
 # params_config["config"] = ("SAC_GANPretrained", )
+# params_config["agent"]["use_pretrained_critic"] = True
+
+# # Exp 4 copy critic from a pretrained gan agent: nf.pkl
+# params_config["config"] = ("SAC_NFPretrained", )
 # params_config["agent"]["use_pretrained_critic"] = True
