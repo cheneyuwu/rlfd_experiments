@@ -3,3 +3,5 @@ config_*
 env_name_*
 *[0-9].pkl
 plot_*
+*.out
+*.sh
