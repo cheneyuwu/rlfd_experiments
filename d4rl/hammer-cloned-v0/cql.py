@@ -5,7 +5,7 @@ params_config = deepcopy(gym_mujoco_params)
 
 params_config["config"] = ("CQL", )
 
-params_config["env_name"] = "walker2d-medium-v0"
+params_config["env_name"] = "hammer-cloned-v0"
 # Tuned values
 params_config["seed"] = tuple(range(5))
 
