@@ -9,9 +9,17 @@ params_config["env_name"] = "halfcheetah-medium-v0"
 # Tuned values
 params_config["seed"] = tuple(range(5))
 
-# Exp 1 sac.
-params_config["config"] = ("SAC", )
-params_config["seed"] = tuple(range(10))
+# # Exp 1 sac.
+# params_config["config"] = ("SAC", )
+# params_config["seed"] = tuple(range(5))
+
+# Exp 2 sac with same parameters as cql online
+params_config["config"] = ("SAC_Param", )
+params_config["random_expl_num_cycles"] = (0, )
+params_config["agent"]["pi_lr"] = (3e-5, )
+params_config["seed"] = tuple(range(5))
+
+#####################
 
 # # Exp 2 copy actor, critic and alpha from a pretrained cql agent: cql.pkl
 # params_config["config"] = ("SAC_CQLPretrained", )
