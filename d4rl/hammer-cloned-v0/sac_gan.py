@@ -9,9 +9,9 @@ params_config["env_name"] = "hammer-cloned-v0"
 # Tuned values
 params_config["seed"] = tuple(range(5))
 
-# Exp 1 sac.
-params_config["config"] = ("SAC", )
-params_config["seed"] = tuple(range(5))
+# # Exp 1 sac.
+# params_config["config"] = ("SAC", )
+# params_config["seed"] = tuple(range(5))
 
 # # Exp 2 copy actor, critic and alpha from a pretrained cql agent: cql.pkl
 # params_config["config"] = ("SAC_CQLPretrained", )
@@ -21,11 +21,11 @@ params_config["seed"] = tuple(range(5))
 # params_config["agent"]["use_pretrained_alpha"] = True
 # params_config["seed"] = tuple(range(10))
 
-# # Exp 3 copy critic from a pretrained gan agent: gan.pkl
-# params_config["config"] = ("SAC_GANPretrained", )
-# params_config["pretrained"] = "gan"
-# params_config["agent"]["use_pretrained_critic"] = True
-# params_config["seed"] = tuple(range(10))
+# Exp 3 copy critic from a pretrained gan agent: gan.pkl
+params_config["config"] = ("SAC_GANPretrained", )
+params_config["pretrained"] = "gan"
+params_config["agent"]["use_pretrained_critic"] = True
+params_config["seed"] = tuple(range(5))
 
 # # Exp 4 copy critic from a pretrained gan agent: nf.pkl
 # params_config["config"] = ("SAC_NFPretrained", )
