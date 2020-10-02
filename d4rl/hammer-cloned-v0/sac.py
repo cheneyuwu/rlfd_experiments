@@ -10,7 +10,7 @@ params_config["env_name"] = "hammer-cloned-v0"
 params_config["seed"] = tuple(range(5))
 
 # Exp 1 sac.
-params_config["config"] = ("SAC", )
+params_config["config"] = ("hammer-cloned-SAC-trial1", )
 params_config["seed"] = tuple(range(5))
 
 # # Exp 2 copy actor, critic and alpha from a pretrained cql agent: cql.pkl
