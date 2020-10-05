@@ -10,4 +10,5 @@ params_config["env_name"] = "door-cloned-v0"
 params_config["seed"] = tuple(range(5))
 
 # Exp 1 CQL
-params_config["config"] = ("CQL", )
+params_config["config"] = ("door-cloned-CQL-trial1", )
+params_config["agent"]["cql_tau"] = (1.0)

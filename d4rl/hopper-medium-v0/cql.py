@@ -18,6 +18,7 @@ params_config["seed"] = tuple(range(5))
 # params_config["agent"]["auto_cql_alpha"] = (False,)
 
 # Exp3 Parameter Search
-params_config["config"] = ("CQL_GridSearch", )
-params_config["agent"]["cql_tau"] = (1.0, 5.0, 10.0, 20.0)
-params_config["agent"]["auto_cql_alpha"] = (True, )
+params_config["config"] = ("hopper-medium-cql-trial1-alpha-lr", )
+params_config["agent"]["cql_tau"] = (1.0)
+params_config["agent"]["cql_alpha_lr"] = (3e-4, 1e-5, 1e-3, 5e-4)
+params_config["agent"]["auto_cql_alpha"] = (True)
