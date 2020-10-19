@@ -10,4 +10,5 @@ params_config["env_name"] = "halfcheetah-medium-v0"
 params_config["seed"] = tuple(range(5))
 
 # Exp 1 CQL
-params_config["config"] = ("CQL", )
+params_config["config"] = ("halfcheetah-medium-cql-trial1", )
+params_config["agent"]["cql_tau"] = (1.0)

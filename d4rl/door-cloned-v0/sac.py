@@ -10,5 +10,5 @@ params_config["env_name"] = "door-cloned-v0"
 params_config["seed"] = tuple(range(5))
 
 # Exp 1 sac.
-params_config["config"] = ("SAC", )
+params_config["config"] = ("door-cloned-SAC-trial1", )
 params_config["seed"] = tuple(range(5))
