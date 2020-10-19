@@ -14,4 +14,4 @@ params_config["config"] = ("CQLOnline", )
 params_config["agent"]["cql_tau"] = (0.0, 0.5, 1.0)
 params_config["agent"]["online_sample_ratio"] = 0.5
 params_config["agent"]["cql_weight_decay_factor"] = 0.9999
-params_config["seed"] = tuple(range(5))
+params_config["seed"] = tuple(range(1))
